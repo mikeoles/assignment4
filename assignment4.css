@@ -111,6 +111,10 @@ input:-moz-placeholder {
   color: white;
 }
 
+.predictions li:hover{
+  background-color: grey;
+}
+
 .predictions li:first-child{
   border-top: 2px solid grey;
 }
