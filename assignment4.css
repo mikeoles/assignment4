@@ -100,7 +100,6 @@ input:-moz-placeholder {
 .predictions li{
   list-style-type: none;
   border: 1px solid grey;
-  text-align: center;
   padding: 3px;
   width: 85%;
   display: block;
@@ -109,6 +108,16 @@ input:-moz-placeholder {
   font-size: 20px;
   font-family: cursive;
   color: white;
+
+}
+
+.predictions li a{
+  color: white;
+  text-decoration: none;
+}
+
+.predictions li a:hover{
+  color: darkblue;
 }
 
 .predictions li:hover{
